@@ -1,0 +1,59 @@
+.navbar-brand img{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.navbar-nav{
+    margin-left: 200px;
+    gap: 10px;
+}
+
+.navbar-nav .nav-link:hover{
+    background-color: #e9ecee;
+    color: red;
+    transform: scale(1.1);
+}
+
+.btn-icon{
+    color: gray;
+}
+
+.btn-icon:hover{
+    color: red;
+    transform: scale(1.1);
+}
+
+.carousel{
+    margin-top: 60px;
+}
+
+.carousel-item img {
+    width: 200px;
+    height: auto;
+    max-height: 600px;
+    object-fit: cover;
+
+}
+
+.puma-banner {
+  margin: 0 -15px;
+}
+
+.puma-banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container.py-5 {
+    max-width: 1200px;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
